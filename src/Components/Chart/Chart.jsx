@@ -3,7 +3,7 @@ import React from 'react';
 
 const Chart = () => {
     return (
-        <div className='bg-[#ECECEC] mt-10'>
+        <div className='bg-[#ECECEC]'>
             <div className='flex justify-start md:justify-end'>
                 <Image className='-rotate-90 md:rotate-0 -mt-[60px] md:mt-0 md:-mb-20' src="https://i.ibb.co/FJqFZ1M/Group-14-1.png" alt='' height={332} width={213} />
             </div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Advertisement = () => {
     return (
-        <div className='bg-[#F9F9F9] pt-20 '>
+        <div className='bg-[#F9F9F9] pt-20 pb-10 md:pb-0'>
             <div className='flex justify-end md:-mt-48 '>
                 <Image className='hidden md:block' src="https://i.ibb.co/Ry6hVP5/image-21.png" alt='' height={1} width={277} />
             </div>
