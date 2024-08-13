@@ -42,7 +42,7 @@ const Advertisement = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-start -mt-56 hidden md:block'>
+            <div className=' -mt-56 hidden md:block'>
                 <Image className='' src="https://i.ibb.co/ThTGJdz/image-20.png" alt='' height={1} width={277} />
             </div>
         </div>

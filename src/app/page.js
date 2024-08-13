@@ -1,5 +1,6 @@
 import Advertisement from '@/Components/Advertisement/Advertisement';
 import Banner from '@/Components/Banner/Banner';
+import Chart from '@/Components/Chart/Chart';
 import Services from '@/Components/Services/Services';
 import React from 'react';
 
@@ -9,6 +10,7 @@ const page = () => {
       <Banner/>
       <Services/>
       <Advertisement/>
+      <Chart/>
     </div>
   );
 };
