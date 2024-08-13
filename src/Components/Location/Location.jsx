@@ -4,15 +4,15 @@ import React from 'react';
 const Location = () => {
     return (
         <div className='bg-[#E08C23] pb-20'>
-            <div className='pt-20 pb-10'>
+            <div data-aos="zoom-in-up" className='pt-20 pb-10'>
                 <h2 className='font-bold text-[30px] md:text-[45px] text-center text-white uppercase'>Impact & Coverage</h2>
                 <p className='text-center text-[16px] text-white md:w-6/12 mx-auto px-6 md:px-0'>Serving the bustling neighborhoods of Uttara, Mirpur, Mohammadpur, and Dhanmondi, we are positioned to deliver over 1 Billion impressions monthly.</p>
             </div>
             <div className='md:w-[871px] mx-auto md:grid grid-cols-2 justify-between text-white text-[16px]'>
-                <div className='order-1 md:order-2 flex justify-center md:justify-end'>
+                <div data-aos="zoom-in-up" className='order-1 md:order-2 flex justify-center md:justify-end'>
                     <Image src='https://i.ibb.co/jTYQKcS/image-27.png' alt='location' width={270} height={361} />
                 </div>
-                <div className='order-2 md:order-1 mt-16 md:mt-0'>
+                <div data-aos="zoom-in-up" className='order-2 md:order-1 mt-16 md:mt-0'>
                     <h3 className='font-bold mb-3  px-6 md:px-0'>OUR CURRENT COVERAGE</h3>
                     <p className=' px-6 md:px-0'>We currently cover:</p>
                     <ul className=' px-6 md:px-0 grid grid-cols-2 md:grid-cols-4 list-disc md:gap-20 ml-4 mt-1'>
@@ -22,14 +22,14 @@ const Location = () => {
                         <li>Dhanmondi</li>
                     </ul>
 
-                    <div className="overflow-x-auto bg-[#4C4C4D] md:bg-[#E08C23] mt-10">
+                    <div className="overflow-x-auto bg-[#4C4C4D] md:bg-[#E08C23] mt-10 px-3 gap-2">
                         <table className="md:min-w-full px-10 text-sm md:text-[16px]">
                             <thead className="text-left">
                                 <tr className='text-[12px]'>
                                     <th className="whitespace-nowrap py-2  ">DISTRICT</th>
-                                    <th className="whitespace-nowrap py-2 text-center ">AREA (KM)</th>
-                                    <th className="whitespace-nowrap py-2 text-center ">POPULATION</th>
-                                    <th className="whitespace-nowrap py-2 text-center ">DENSITY (SQ KM)</th>
+                                    <th className="whitespace-nowrap py-2 pl-2 text-center ">AREA (KM)</th>
+                                    <th className="whitespace-nowrap py-2 pl-2 text-center ">POPULATION</th>
+                                    <th className="whitespace-nowrap py-2 pl-2 text-center ">DENSITY (SQ KM)</th>
                                 </tr>
                             </thead>
 
@@ -72,7 +72,7 @@ const Location = () => {
                 </div>
 
             </div>
-            <p className='text-center text-[16px] text-white md:w-6/12 mx-auto mt-10 px-6 md:px-0'>Reach close to 70% of target residents with an effective ad frequency, ensuring high recall and brand safety within a trusted and transparent platform.</p>
+            <p data-aos="zoom-in-up" className='text-center text-[16px] text-white md:w-6/12 mx-auto mt-10 px-6 md:px-0'>Reach close to 70% of target residents with an effective ad frequency, ensuring high recall and brand safety within a trusted and transparent platform.</p>
         </div>
     );
 };

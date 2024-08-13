@@ -4,9 +4,9 @@ import React from 'react';
 const Banner = () => {
     return (
         <section className='md:grid grid-cols-2 grid-col-1 bg-[#F9F9F9] md:h-screen'>
-            <div className='order-2 flex justify-end'>
+            <div className='order-2 flex md:justify-end'>
                 <Image className='hidden md:block' src="https://i.ibb.co/5Rf8Z9G/Group-5.png" width={650} height={700} alt='banner-img' />
-                <Image className='md:hidden block' src="https://i.ibb.co/YDY42YN/image-22.png" width={400} height={300} alt='banner-img' />
+                <Image className='md:hidden block' src="https://i.ibb.co/YDY42YN/image-22.png" width={430} height={300} alt='banner-img' />
             </div>
             <div className='flex order-1'>
                 <div className='hidden md:block'>

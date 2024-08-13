@@ -24,12 +24,12 @@ const Services = () => {
     ]
     // console.log(servicesList);
     return (
-        <div className='bg-[#F9F9F9] pt-20'>
+        <div data-aos="fade-up" className='bg-[#F9F9F9] pt-20'>
             <div className='px-6 md:px-0 md:w-10/12 mx-auto'>
                 <h1 className='text-[34px] md:text-[45px] font-bold text-black text-center'>Why Digital Out Of Home Advertising</h1>
                 <div className='grid md:grid-cols-3 text-center align-middle gap-10 mt-10'>
                 {
-                    servicesList.map((service, idx) => <div key={idx} className='bg-[#FDFFCD] px-10 md:px-[76px] py-20'>
+                    servicesList.map((service, idx) => <div data-aos="zoom-in" key={idx} className='bg-[#FDFFCD] px-10 md:px-[76px] py-20'>
                         <div className="text-[72px] bg-[#FE451B] text-white max-w-max p-6 rounded-full mx-auto">
                             {service.icon}
                         </div>

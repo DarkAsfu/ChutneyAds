@@ -3,11 +3,11 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='md:flex'>
+        <div className='md:flex justify-between'>
             <div className='hidden md:block'>
                 <Image src="https://i.ibb.co/bQCwfb4/image-17.png" alt='' width={418} height={816} />
             </div>
-            <div>
+            <div data-aos="zoom-in-up">
                 <div className='pt-20 pb-10'>
                     <h2 className='font-bold text-[30px] md:text-[45px] text-center uppercase px-6'>Book a Consultation Call</h2>
                     <p className='text-center text-[16px]  md:w-7/12 mx-auto px-6 md:px-0'>Ready to transform your brand’s visibility and engagement? take the next step with Chutney Ads.</p>
@@ -24,7 +24,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className='hidden md:block'>
+            <div className='hidden md:block '>
                 <Image src="https://i.ibb.co/QKSp6DT/image-18.png" alt='' width={418} height={816} />
             </div>
         </div>
