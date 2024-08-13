@@ -22,9 +22,9 @@ const Services = () => {
 
         }
     ]
-    console.log(servicesList);
+    // console.log(servicesList);
     return (
-        <div className='bg-[#F9F9F9] py-20'>
+        <div className='bg-[#F9F9F9] pt-20'>
             <div className='px-6 md:px-0 md:w-10/12 mx-auto'>
                 <h1 className='text-[34px] md:text-[45px] font-bold text-black text-center'>Why Digital Out Of Home Advertising</h1>
                 <div className='grid md:grid-cols-3 text-center align-middle gap-10 mt-10'>
