@@ -20,7 +20,7 @@ const Banner = () => {
                     <p className='text-[20px]'>
                     Engage with Strategic, Real-Time DOOH Advertising
                     </p>
-                    <button className='bg-[#FE451B] text-[16px] text-white px-8 py-3 font-light mt-10'>
+                    <button className='bg-[#FE451B] text-[16px] text-white px-8 py-3 font-light mt-10 mb-20'>
                         Book a Call
                     </button>
                 </div>
